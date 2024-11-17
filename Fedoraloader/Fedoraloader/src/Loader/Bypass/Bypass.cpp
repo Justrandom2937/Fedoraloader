@@ -9,7 +9,7 @@
 
 void ExitSteam()
 {
-	Utils::WaitCloseProcess("tf_win64.exe");
+	Utils::WaitCloseProcess("tf.exe");
 	Utils::WaitCloseProcess("steam.exe");
 	Utils::WaitCloseProcess("SteamService.exe");
 	Utils::WaitCloseProcess("steamwebhelper.exe");
